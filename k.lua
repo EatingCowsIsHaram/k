@@ -1,10 +1,10 @@
 local keys = {...}
 
 pcall(function()
-	rconsoleprint = g
-	print = g
-	error = g
-	warn = g
+	getgenv().rconsoleprint = g
+	getgenv().print = g
+	getgenv().error = g
+	getgenv().warn = g
 end)
 
 local player = game.Players.LocalPlayer
