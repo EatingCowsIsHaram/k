@@ -16,4 +16,5 @@ if getgenv().Key ~= nil and getgenv().Key == false then
 	table.insert(keys, "0x2_Fxw71vYbG5gZ7K6-69qYnT598XJOPYG-5LJcBOpOPk2urj3")
 	table.insert(keys, "0x3_AklqaW9NSXYo85G-ga7MzZH9q1M0iZ7-gXiwUN8TmxBxv4V")
 end
+
 return keys
